@@ -20,5 +20,6 @@ function onBtnStartClick() {
 function onBtnStopClick() {
     startBtnRef.disabled = false;
     clearInterval(timerId);
+    body.style.backgroundColor = '';
 };
 
