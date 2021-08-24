@@ -1,0 +1,1 @@
+const startBtnRef= document.querySelector('[data-action="start"]');
